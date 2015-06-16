@@ -70,7 +70,7 @@ typedef enum Windows{
 } Windows;
 
 const uint8_t ColumnFilter = 1;
-const uint8_t Decibels = 0;
+const uint8_t Decibels = 1;
 Windows Window = Hann;
 
 void SysTick_Handler(void){
@@ -234,6 +234,7 @@ int main(void)
 		IndO = 0;
 		BufSum = 0;
 
+		//Temporary real and imaginary variables
 		int32_t R, I;
 
 		//Calculate the magnitude
@@ -267,6 +268,9 @@ int main(void)
 					Col[Index] += (BufSum-Col[Index])>>ColumnFilter;
 				}
 
+				//Limit maximum column value
+				if(Col[Index] >= YPix) Col[Index] = YPix-1;
+
 				IndO = Index;
 				BufSum = 0;
 			}
@@ -275,7 +279,7 @@ int main(void)
 		//Clear the current buffer
 		ClrBuf();
 
-		//Write each column value to the columns
+		//Write each column value to the columns, the first value is a bit faulty!
 		for(Cnt = 1 ; Cnt<XPix; Cnt++){
 			DrawCol(Cnt, Col[Cnt]);
 		}

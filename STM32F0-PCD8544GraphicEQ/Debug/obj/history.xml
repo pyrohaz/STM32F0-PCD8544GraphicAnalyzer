@@ -1,34 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\STM32F0-PCD8544GraphicEQ\stm32_lib -I..\..\..\workspace\STM32F0-PCD8544GraphicEQ\cmsis_boot -I..\..\..\workspace\STM32F0-PCD8544GraphicEQ -I..\..\..\workspace -I..\..\.. -I..\..\..\workspace\STM32F0-PCD8544GraphicEQ\stm32_lib\inc -I..\..\..\workspace\STM32F0-PCD8544GraphicEQ\cmsis_core">
-      <target file="stm32f0xx_spi.o" lastModified="14df064707c">
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\STM32F0-PCD8544GraphicAnalyzer\cmsis_core -I..\..\..\workspace\STM32F0-PCD8544GraphicAnalyzer\cmsis_boot -I..\..\..\workspace\STM32F0-PCD8544GraphicAnalyzer\stm32_lib -I..\..\..\workspace -I..\..\.. -I..\..\..\workspace\STM32F0-PCD8544GraphicAnalyzer\stm32_lib\inc -I..\..\..\workspace\STM32F0-PCD8544GraphicAnalyzer">
+      <target file="stm32f0xx_spi.o" lastModified="14dfa25209b">
          <source file="..\..\..\stm32_lib\src\stm32f0xx_spi.c" lastModified="14df0264ba5"/>
       </target>
-      <target file="PCD8544F0.o" lastModified="14df0646ebf">
+      <target file="PCD8544F0.o" lastModified="14dfa251e78">
          <source file="..\..\..\PCD8544F0.c" lastModified="14df041ccba"/>
       </target>
-      <target file="stm32f0xx_gpio.o" lastModified="14df06477d7">
+      <target file="stm32f0xx_gpio.o" lastModified="14dfa252707">
          <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="14def8e3c20"/>
       </target>
-      <target file="stm32f0xx_rcc.o" lastModified="14df0646808">
+      <target file="stm32f0xx_rcc.o" lastModified="14dfa2517e8">
          <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="14def8e3c35"/>
       </target>
-      <target file="fix_fft.o" lastModified="14df337e59f">
+      <target file="fix_fft.o" lastModified="14dfa25241e">
          <source file="..\..\..\fix_fft.c" lastModified="14df3312b25"/>
       </target>
-      <target file="stm32f0xx_adc.o" lastModified="14df06469b3">
+      <target file="stm32f0xx_adc.o" lastModified="14dfa251a78">
          <source file="..\..\..\stm32_lib\src\stm32f0xx_adc.c" lastModified="14def8e3baf"/>
       </target>
-      <target file="main.o" lastModified="14dfa1ce78b">
-         <source file="..\..\..\main.c" lastModified="14dfa1ca69b"/>
+      <target file="main.o" lastModified="14dfa26ff96">
+         <source file="..\..\..\main.c" lastModified="14dfa26f716"/>
       </target>
-      <target file="GFX.o" lastModified="14df0647285">
+      <target file="GFX.o" lastModified="14dfa2522ad">
          <source file="..\..\..\GFX.c" lastModified="14df03fcac8"/>
       </target>
-      <target file="startup_stm32f0xx.o" lastModified="14df0646c3e">
+      <target file="startup_stm32f0xx.o" lastModified="14dfa251cc3">
          <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="14def8e3c3e"/>
       </target>
-      <target file="system_stm32f0xx_temp.o" lastModified="14df06475bc">
+      <target file="system_stm32f0xx_temp.o" lastModified="14dfa252589">
          <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="14def8e3c72"/>
       </target>
    </processor>

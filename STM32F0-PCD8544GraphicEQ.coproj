@@ -79,8 +79,8 @@
     <Component id="434" name="SPI" path="" type="2"/>
   </Components>
   <Files>
-    <File name="cmsis_core/core_cmInstr.h" path="cmsis_core/core_cmInstr.h" type="1"/>
     <File name="cmsis_boot/startup/startup_stm32f0xx.s" path="cmsis_boot/startup/startup_stm32f0xx.s" type="1"/>
+    <File name="cmsis_core/core_cmInstr.h" path="cmsis_core/core_cmInstr.h" type="1"/>
     <File name="cmsis_boot/stm32f0xx_conf.h" path="cmsis_boot/stm32f0xx_conf.h" type="1"/>
     <File name="cmsis_boot/system_stm32f0xx_temp.c" path="cmsis_boot/system_stm32f0xx_temp.c" type="1"/>
     <File name="cmsis_boot" path="" type="2"/>
@@ -93,8 +93,8 @@
     <File name="stm32_lib/inc/stm32f0xx_gpio.h" path="stm32_lib/inc/stm32f0xx_gpio.h" type="1"/>
     <File name="stm32_lib/inc" path="" type="2"/>
     <File name="stm32_lib/inc/stm32f0xx_spi.h" path="stm32_lib/inc/stm32f0xx_spi.h" type="1"/>
-    <File name="stm32_lib/src/stm32f0xx_adc.c" path="stm32_lib/src/stm32f0xx_adc.c" type="1"/>
     <File name="cmsis_boot/stm32f0xx.h" path="cmsis_boot/stm32f0xx.h" type="1"/>
+    <File name="stm32_lib/src/stm32f0xx_adc.c" path="stm32_lib/src/stm32f0xx_adc.c" type="1"/>
     <File name="PCD8544F0.h" path="PCD8544F0.h" type="1"/>
     <File name="cmsis_core/core_cm0.h" path="cmsis_core/core_cm0.h" type="1"/>
     <File name="stm32_lib/inc/stm32f0xx_rcc.h" path="stm32_lib/inc/stm32f0xx_rcc.h" type="1"/>
@@ -103,9 +103,9 @@
     <File name="cmsis_boot/system_stm32f0xx.h" path="cmsis_boot/system_stm32f0xx.h" type="1"/>
     <File name="GFX.c" path="GFX.c" type="1"/>
     <File name="stm32_lib/src/stm32f0xx_gpio.c" path="stm32_lib/src/stm32f0xx_gpio.c" type="1"/>
-    <File name="main.c" path="main.c" type="1"/>
-    <File name="stm32_lib/src" path="" type="2"/>
     <File name="stm32_lib/src/stm32f0xx_rcc.c" path="stm32_lib/src/stm32f0xx_rcc.c" type="1"/>
+    <File name="stm32_lib/src" path="" type="2"/>
+    <File name="main.c" path="main.c" type="1"/>
     <File name="stm32_lib/inc/stm32f0xx_adc.h" path="stm32_lib/inc/stm32f0xx_adc.h" type="1"/>
   </Files>
 </Project>
