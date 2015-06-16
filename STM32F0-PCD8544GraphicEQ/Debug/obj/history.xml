@@ -19,14 +19,14 @@
       <target file="stm32f0xx_adc.o" lastModified="14dfa251a78">
          <source file="..\..\..\stm32_lib\src\stm32f0xx_adc.c" lastModified="14def8e3baf"/>
       </target>
-      <target file="main.o" lastModified="14dfdbd6c4b">
-         <source file="..\..\..\main.c" lastModified="14dfdbd663b"/>
-      </target>
-      <target file="startup_stm32f0xx.o" lastModified="14dfa251cc3">
-         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="14def8e3c3e"/>
+      <target file="main.o" lastModified="14dfdc1fdcd">
+         <source file="..\..\..\main.c" lastModified="14dfdc1f57b"/>
       </target>
       <target file="GFX.o" lastModified="14dfa2522ad">
          <source file="..\..\..\GFX.c" lastModified="14df03fcac8"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="14dfa251cc3">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="14def8e3c3e"/>
       </target>
       <target file="system_stm32f0xx_temp.o" lastModified="14dfa252589">
          <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="14def8e3c72"/>

@@ -1,54 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <dependencies>
-   <includePath signature="/I..\..\..\workspace\STM32F0-PCD8544GraphicEQ\stm32_lib /I..\..\..\workspace\STM32F0-PCD8544GraphicEQ\cmsis_boot /I..\..\..\workspace\STM32F0-PCD8544GraphicEQ /I..\..\..\workspace /I..\..\.. /I..\..\..\workspace\STM32F0-PCD8544GraphicEQ\stm32_lib\inc /I..\..\..\workspace\STM32F0-PCD8544GraphicEQ\cmsis_core">
-      <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="14def8e3c35">
-         <include file="..\..\..\stm32_lib\inc\stm32f0xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="14def8e3c3e">
-      </source>
-      <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="14def8e3c20">
-         <include file="..\..\..\stm32_lib\inc\stm32f0xx_gpio.h"/>
-         <include file="..\..\..\stm32_lib\inc\stm32f0xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\fix_fft.c" lastModified="14df3312b25">
-      </source>
-      <source file="..\..\..\PCD8544F0.h" lastModified="14df03ff627">
-         <include file="..\..\..\stm32_lib\inc\stm32f0xx_gpio.h"/>
-         <include file="..\..\..\stm32_lib\inc\stm32f0xx_rcc.h"/>
-         <include file="..\..\..\stm32_lib\inc\stm32f0xx_spi.h"/>
-      </source>
-      <source file="..\..\..\stm32_lib\inc\stm32f0xx_adc.h" lastModified="14def8e3b9e">
-         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
-      </source>
-      <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="14def8e3c72">
-         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
-      </source>
-      <source file="..\..\..\PCD8544F0.c" lastModified="14df041ccba">
-         <include file="..\..\..\PCD8544F0.h"/>
-      </source>
-      <source file="..\..\..\stm32_lib\inc\stm32f0xx_gpio.h" lastModified="14def8e3c00">
-         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
-      </source>
-      <source file="..\..\..\stm32_lib\src\stm32f0xx_adc.c" lastModified="14def8e3baf">
-         <include file="..\..\..\stm32_lib\inc\stm32f0xx_adc.h"/>
-         <include file="..\..\..\stm32_lib\inc\stm32f0xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\stm32_lib\inc\stm32f0xx_spi.h" lastModified="14df0264b77">
-         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
-      </source>
-      <source file="..\..\..\GFX.c" lastModified="14df03fcac8">
-         <include file="..\..\..\GFX.h"/>
-      </source>
-      <source file="..\..\..\cmsis_boot\system_stm32f0xx.h" lastModified="14def8e3c68">
-      </source>
-      <source file="..\..\..\stm32_lib\inc\stm32f0xx_rcc.h" lastModified="14def8e3c31">
-         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
-      </source>
-      <source file="..\..\..\stm32_lib\src\stm32f0xx_spi.c" lastModified="14df0264ba5">
-         <include file="..\..\..\stm32_lib\inc\stm32f0xx_spi.h"/>
-         <include file="..\..\..\stm32_lib\inc\stm32f0xx_rcc.h"/>
-      </source>
-   </includePath>
    <includePath signature="/I..\..\..\workspace\STM32F0-PCD8544GraphicAnalyzer\cmsis_core /I..\..\..\workspace\STM32F0-PCD8544GraphicAnalyzer\cmsis_boot /I..\..\..\workspace\STM32F0-PCD8544GraphicAnalyzer\stm32_lib /I..\..\..\workspace /I..\..\.. /I..\..\..\workspace\STM32F0-PCD8544GraphicAnalyzer\stm32_lib\inc /I..\..\..\workspace\STM32F0-PCD8544GraphicAnalyzer">
       <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="14def8e3c35">
          <include file="..\..\..\stm32_lib\inc\stm32f0xx_rcc.h"/>
@@ -102,6 +53,55 @@
          <include file="..\..\..\cmsis_core\core_cmFunc.h"/>
       </source>
       <source file="..\..\..\cmsis_core\core_cmFunc.h" lastModified="14def8e4454">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f0xx.h" lastModified="14def8e3c68">
+      </source>
+      <source file="..\..\..\stm32_lib\inc\stm32f0xx_rcc.h" lastModified="14def8e3c31">
+         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
+      </source>
+      <source file="..\..\..\stm32_lib\src\stm32f0xx_spi.c" lastModified="14df0264ba5">
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_spi.h"/>
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_rcc.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace\STM32F0-PCD8544GraphicEQ\stm32_lib /I..\..\..\workspace\STM32F0-PCD8544GraphicEQ\cmsis_boot /I..\..\..\workspace\STM32F0-PCD8544GraphicEQ /I..\..\..\workspace /I..\..\.. /I..\..\..\workspace\STM32F0-PCD8544GraphicEQ\stm32_lib\inc /I..\..\..\workspace\STM32F0-PCD8544GraphicEQ\cmsis_core">
+      <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="14def8e3c35">
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="14def8e3c3e">
+      </source>
+      <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="14def8e3c20">
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_gpio.h"/>
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\fix_fft.c" lastModified="14df3312b25">
+      </source>
+      <source file="..\..\..\PCD8544F0.h" lastModified="14df03ff627">
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_gpio.h"/>
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_rcc.h"/>
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_spi.h"/>
+      </source>
+      <source file="..\..\..\stm32_lib\inc\stm32f0xx_adc.h" lastModified="14def8e3b9e">
+         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="14def8e3c72">
+         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
+      </source>
+      <source file="..\..\..\PCD8544F0.c" lastModified="14df041ccba">
+         <include file="..\..\..\PCD8544F0.h"/>
+      </source>
+      <source file="..\..\..\stm32_lib\inc\stm32f0xx_gpio.h" lastModified="14def8e3c00">
+         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
+      </source>
+      <source file="..\..\..\stm32_lib\src\stm32f0xx_adc.c" lastModified="14def8e3baf">
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_adc.h"/>
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm32_lib\inc\stm32f0xx_spi.h" lastModified="14df0264b77">
+         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
+      </source>
+      <source file="..\..\..\GFX.c" lastModified="14df03fcac8">
+         <include file="..\..\..\GFX.h"/>
       </source>
       <source file="..\..\..\cmsis_boot\system_stm32f0xx.h" lastModified="14def8e3c68">
       </source>
