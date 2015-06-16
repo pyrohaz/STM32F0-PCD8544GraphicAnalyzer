@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="4.4.1 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=STM32F0-PCD8544GraphicEQ.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STM32F0-PCD8544GraphicEQ -TC:\CooCox\CoIDE\configuration\ProgramData\STM32F0-PCD8544GraphicEQ/arm-gcc-link.ld -g -L..\..\.. -lm">
-      <target file="STM32F0-PCD8544GraphicEQ.elf" lastModified="14dfa270348">
+      <target file="STM32F0-PCD8544GraphicEQ.elf" lastModified="14dfdbd70d0">
          <source file="..\obj\stm32f0xx_rcc.o" lastModified="14dfa2517e8"/>
          <source file="..\obj\stm32f0xx_adc.o" lastModified="14dfa251a78"/>
-         <source file="..\obj\main.o" lastModified="14dfa26ff96"/>
+         <source file="..\obj\main.o" lastModified="14dfdbd6c4b"/>
          <source file="..\obj\startup_stm32f0xx.o" lastModified="14dfa251cc3"/>
          <source file="..\obj\PCD8544F0.o" lastModified="14dfa251e78"/>
          <source file="..\obj\stm32f0xx_spi.o" lastModified="14dfa25209b"/>

@@ -32,7 +32,7 @@
 #include <math.h>
 
 //Sample rate
-#define FS		40000
+#define FS		48000
 
 //Oversampling definition, used for software filtering!
 #define Oversampling2x
@@ -70,7 +70,7 @@ typedef enum Windows{
 } Windows;
 
 const uint8_t ColumnFilter = 1;
-const uint8_t Decibels = 1;
+const uint8_t Decibels = 0;
 Windows Window = Hann;
 
 void SysTick_Handler(void){
@@ -269,7 +269,7 @@ int main(void)
 				}
 
 				//Limit maximum column value
-				if(Col[Index] >= YPix) Col[Index] = YPix-1;
+				if(Col[Index] >= YPix-9) Col[Index] = YPix-10;
 
 				IndO = Index;
 				BufSum = 0;
@@ -278,6 +278,10 @@ int main(void)
 
 		//Clear the current buffer
 		ClrBuf();
+		PChar('0', 0, 0, 0, 0);
+		uint8_t XPos;
+		XPos = PNum(FS/2000, XPix-3*5, 0, 0, 0, 0);
+		PChar('k', XPos, 0, 0, 0);
 
 		//Write each column value to the columns, the first value is a bit faulty!
 		for(Cnt = 1 ; Cnt<XPix; Cnt++){
